@@ -26,13 +26,13 @@ Este projeto é uma implementação em Java que demonstra o uso de classes abstr
 
 ### **🐕 Classes Concretas**
 
-- **`Cachorro`**: Classe que estende `AnimalTerrestreAB`. Representa um cachorro com a capacidade de comer, mover-se, dormir e pular.
+- **`Cachorro`**: Classe que estende `AnimalTerrestreAB`. Representa um cachorro com a capacidade de comer, mover-se e dormir.
 
 - **`Gato`**: Classe que estende `AnimalTerrestreAB`. Representa um gato com a capacidade de comer, mover-se, dormir e pular.
 
-- **`Elefante`**: Classe que estende `AnimalTerrestreAB`. Representa um elefante com a capacidade de comer, mover-se, dormir e pular.
+- **`Elefante`**: Classe que estende `AnimalTerrestreAB`. Representa um elefante com a capacidade de comer, mover-se e dormir.
 
-- **`Leão`**: Classe que estende `AnimalTerrestreAB`. Representa um leão com a capacidade de comer, mover-se, dormir e pular.
+- **`Leão`**: Classe que estende `AnimalTerrestreAB`. Representa um leão com a capacidade de comer, mover-se, dormir e correr.
 
 - **`Peixe`**: Classe que estende `AnimalMarinhoAB`. Representa um peixe com a capacidade de comer, mover-se, dormir e nadar.
 
@@ -46,9 +46,9 @@ Cada animal possui os seguintes atributos:
 - **Tipo de Animal**
 - **Idade**
 - **Habitat**
-- **Quantidade de Patas**
-- **Quantidade de Asas**
-- **Envergadura das Asas**
+- **Quantidade de Patas**(Somente Terreste)
+- **Quantidade de Asas** (Somente Voador)
+- **Envergadura das Asas** (Somente Voador)
 - **Altura**
 - **Peso**
 
