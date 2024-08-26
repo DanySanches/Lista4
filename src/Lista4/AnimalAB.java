@@ -13,7 +13,7 @@ public abstract class AnimalAB implements AnimalIF {
 	protected double peso;
 	
 	
-	protected int comidaIngerida;
+    protected int comidaIngerida;
     protected int caminhoPercorrido;
     protected int horasDormidas;
 
